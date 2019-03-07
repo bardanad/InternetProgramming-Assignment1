@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<title>Yuli The Husky Siberian</title>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="#about">About Me</a></li>
+			<li><a href="#photos">My Photos</a></li>
+			<li><a href="#playlist">My Playlist</a></li>
+			<li><a href="#like">Like</a></li>
+			<li><a href="#qrcoder">QR code</a></li>
+			<li><a href="#spa">Q&A</a></li>
+			<li><a href="#contact">Contact Me</a></li>
+		</ul>
+	</nav>
+		  
+<section id="about" class="section">
+	<h1>About Me</h1>
+	<text>
+	</text>
+</section>
+
+
+<section id="photos" class="section">
+	<h1>My Photos</h1>
+	<div class="row">
+		<div class="column">
+			<img src="IMG-20160319-WA0000.jpg" alt="Snow" onmouseover="changeImage('IMG-20160307-WA0026.jpg')">
+		</div>
+		<div class="column">
+			<img src="IMG-20160307-WA0026.jpg" alt="Forest">
+		</div>
+		<div class="column">
+			<img src="IMG-20160304-WA0040.jpg" alt="Mountains">
+		</div>
+	</div>
+	<div class="row">
+		<div class="column">
+			<img src="IMG-20160319-WA0000.jpg" alt="Snow" onmouseover="changeImage('IMG-20160307-WA0026.jpg')">
+		</div>
+		<div class="column">
+			<img src="IMG-20160307-WA0026.jpg" alt="Forest">
+		</div>
+		<div class="column">
+			<img src="IMG-20160304-WA0040.jpg" alt="Mountains">
+		</div>
+	</div>
+	<div class="row">
+		<div class="column">
+			<img src="IMG-20160319-WA0000.jpg" alt="Snow" onmouseover="changeImage('IMG-20160307-WA0026.jpg')">
+		</div>
+		<div class="column">
+			<img src="IMG-20160307-WA0026.jpg" alt="Forest">
+		</div>
+		<div class="column">
+			<img src="IMG-20160304-WA0040.jpg" alt="Mountains">
+		</div>
+	</div>
+</section>
+
+<section id="playlist" class="section">
+	<h1>My Playlist</h1>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLPBiZ3Wq7riRUmtC6KvjdmMPIgY3kA1FA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></section>
+
+<section id="like" class="section">
+	<h1>Give Me a Like</h1>
+	<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&width=450&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId=1871471316488972" width="450" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe></section>
+
+	<section id="qrcoder" class="section">
+	<h1>Scan My Code</h1>
+</section>
+
+<section id="spa" class="section">
+<h1>ans</h1>
+</section>
+
+<section id="contact" class="section">
+<h1>Contact me</h1>
+</section>
+
+	<script type="text/javascript" language="javascript">
+		function changeImage(img){
+			document.getElementById('bigImage').src=img;
+		}
+	</script>
+	<div id="fb-root"></div>
+	<script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=1871471316488972&autoLogAppEvents=1"></script>
+</body>
+</html>
